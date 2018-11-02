@@ -12,3 +12,9 @@ print(TimeByFirstBloodGraph2)
 
 TimeByFirstBloodGraph3<-TimeByFirstBloodGraph2+geom_smooth(method = "lm",se= FALSE)
 print(TimeByFirstBloodGraph3)
+
+pdf("Results/lesson1Graphs.pdf")
+print(TimeByFirstBloodGraph)
+print(TimeByFirstBloodGraph2)
+print(TimeByFirstBloodGraph3)
+dev.off()
