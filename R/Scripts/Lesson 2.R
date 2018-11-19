@@ -1,4 +1,5 @@
 library(tidyverse)
+library(ggplot2)
 
 #https://www.kaggle.com/kemical/kickstarter-projects#ks-projects-201801.csv
 kickstarterTable<-read.csv("Datasets/Kickstarters/ks-projects-201801.csv")
